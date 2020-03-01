@@ -25,3 +25,9 @@
 
 
 <h4 align="center">BannerBash is an awsome library which provides large 3D banner text to your shell script at run time ,it adds additional feature to shell terminals to print large headers with ease .It works on matrix pattern sequencer algorithm to provide fast and effective library.</h4>
+
+## License
+
+BannerBash is licensed under `Apache-2.0 license`. View [license](https://github.com/vivekverma007/BannerBash/blob/master/LICENSE).<br>
+Copyright (c) 2020 `@vivekverma007`
+
