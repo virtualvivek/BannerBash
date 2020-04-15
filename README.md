@@ -43,7 +43,7 @@ $ wget -O - https://raw.githubusercontent.com/vivekverma007/BannerBash/master/li
 
 ## Installation 
 
-Download the latest version of BannerBash `: 1.0`
+Download the latest version of BannerBash : `1.0`
 
 Include `BannerBash` folder in your target project folder.
 
@@ -54,7 +54,7 @@ Add library function in your `shell script` using:
 
 ```
 
-## Usage
+## Usage -
 
 To print `Banner` use function :-
 
