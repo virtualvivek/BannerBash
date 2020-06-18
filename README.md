@@ -26,7 +26,7 @@
 
 <h4 align="center">BannerBash is an awsome library which provides large banner text to your shell script at runtime, integrating this helps your shell scripts to print large headers in cli with ease .It works on matrix pattern sequencer algorithm to provide fast and effective banner view.</h4>
 
-## Demo
+## Demo:
 use command to see a live preview
 ``` shell
 
@@ -41,7 +41,7 @@ $ wget -O - https://raw.githubusercontent.com/vivekverma007/BannerBash/master/li
 
 ```
 
-## Installation 
+## Installation: 
 
 Download the latest version of BannerBash : `1.0`
 
@@ -54,7 +54,7 @@ Add library function in your `shell script` using:
 
 ```
 
-## Usage -
+## Usage:
 
 To print `Banner` use function :-
 
@@ -63,7 +63,7 @@ $ BannerBash "Argument String"
 
 ```
 
-## License =:
+## License:
 
 BannerBash is licensed under `Apache-2.0 license`. View [license](https://github.com/vivekverma007/BannerBash/blob/master/LICENSE).<br>
 Copyright (c) 2020. ` Vivek Verma `
