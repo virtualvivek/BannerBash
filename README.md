@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="https://github.com/vivekverma007/BannerBash/blob/master/preview/app_repo_title.PNG" width="432" /> </h2>
+<h2 align="center"> <img src="preview/app_repo_title.PNG" width="432" /> </h2>
 
 <p align="center">
 	
@@ -8,14 +8,14 @@
   </a>
   	
   <a href="https://github.com/vivekverma007/BannerBash">
-    <img src="https://img.shields.io/github/repo-size/vivekverma007/BannerBash.svg?color=orange"
+    <img src="https://img.shields.io/github/repo-size/virtualvivek/BannerBash.svg?color=orange"
       alt="Library Size" />
   </a>
-  	<a href="https://github.com/vivekverma007/BannerBash/blob/master/LICENSE">
+  	<a href="https://github.com/virtualvivek/BannerBash/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/vivekverma007/BannerBash.svg?color=blue"
       alt="License: Apache" />
   </a>
-  	<a href="https://github.com/vivekverma007/BannerBash">
+  	<a href="https://github.com/virtualvivek/BannerBash">
     <img src="https://img.shields.io/badge/Release-v1.0-darklime.svg?style=flat"
       alt="Release" />
   </a>
@@ -30,7 +30,7 @@
 use command to see a live preview
 ``` shell
 
-$ wget -O - https://raw.githubusercontent.com/vivekverma007/BannerBash/master/library/BannerBash.sh | bash
+$ wget -O - https://raw.githubusercontent.com/virtualvivek/BannerBash/master/library/BannerBash.sh | bash
 
  ██╗  ██╗ ██╗    ██████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗ ██████╗ 
  ██║  ██║ ██║    ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗
