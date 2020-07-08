@@ -1,8 +1,8 @@
 #!/bin/bash
 #================================================================================
 # Copyright 2020 vivekverma
-# https://github.com/vivekverma007/BannerBash/blob/master/LICENSE
-# vivekverma007/BannerBash is licensed under the
+# https://github.com/virtualvivek/BannerBash/blob/master/LICENSE
+# virtualvivek/BannerBash is licensed under the
 # Apache License 2.0
 #================================================================================
 
