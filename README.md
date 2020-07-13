@@ -65,6 +65,6 @@ $ BannerBash "Argument String"
 
 ## License:
 
-BannerBash is licensed under `Apache-2.0 license`. View [license](https://github.com/vivekverma007/BannerBash/blob/master/LICENSE).<br>
+BannerBash is licensed under `Apache-2.0 license`. View [license](https://github.com/virtualvivek/BannerBash/blob/master/LICENSE).<br>
 Copyright (c) 2020. ` Vivek Verma `
 
