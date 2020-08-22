@@ -25,7 +25,7 @@
 </p>
 
 
-<p align="center">BannerBash is an awsome library which provides large banner text to your shell script at runtime, integrating this helps your shell scripts to print large headers in cli with ease .It works on matrix pattern sequencer algorithm to provide fast and effective banner view.</p>
+<p align="center">BannerBash is an awsome library which provides <code>large banner</code> text to your shell script at runtime, integrating this helps your shell scripts to print large headers in cli with ease .It works on matrix pattern sequencer algorithm to provide fast and effective banner view.</p>
 
 ## Demo:
 use command to see a live preview
