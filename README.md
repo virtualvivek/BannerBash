@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="preview/app_repo_title.PNG" width="432" /> </h2>
+<h2 align="center"> <img src="preview/app_repo_title.PNG" width="458" /> </h2>
 
 <p align="center">
 
@@ -25,7 +25,7 @@
 </p>
 
 
-<p align="center">BannerBash is an awsome library which provides <code>large banner</code> text to your shell script at runtime, integrating this helps your shell scripts to print large headers in cli with ease .It works on matrix pattern sequencer algorithm to provide fast and effective banner view.</p>
+<p align="center">BannerBash is an awsome library which provides <code>large banner</code> text including <code>alphabets</code>, <code>numbers</code>, <code>maths Symbols</code>, <code>Special characters</code>to your shell script at runtime, integrating this helps your shell scripts to print large headers in cli with ease .It works on matrix pattern sequencer algorithm to provide fast and effective banner view.</p>
 
 ## Demo:
 use command to see a live preview
@@ -44,7 +44,7 @@ $ wget -O - https://raw.githubusercontent.com/virtualvivek/BannerBash/master/lib
 
 ## Installation: 
 
-Download the latest version of BannerBash : `1.0`
+Download the latest version of BannerBash : <a href="https://github.com/virtualvivek/BannerBash/releases/latest"><img src="https://img.shields.io/badge/Download-BannerBash : latest-darklime.svg?style=flat" alt="Download Latest" /></a>
 
 Include `BannerBash` folder in your target project folder.
 
@@ -63,6 +63,17 @@ To print `Banner` use function :-
 $ BannerBash "Argument String"
 
 ```
+## Alphabets:
+<img src="preview/app_repo_alphabets.PNG" width="470" />
+
+## Numbers:
+<img src="preview/app_repo_numbers.PNG" width="470" />
+
+## Maths Symbols:
+<img src="preview/app_repo_maths_symbols.PNG" width="470" />
+
+## Special Characters:
+<img src="preview/app_repo_special_characters.PNG" width="470" />
 
 
 ## License:
