@@ -64,15 +64,35 @@ $ BannerBash "Argument String"
 
 ```
 ## Alphabets:
+
+```shell
+$ BannerBash "abcdefghijklmnopqrstuvwxyz"
+```
+
 <img src="preview/app_repo_alphabets.PNG" width="470" />
 
 ## Numbers:
+
+```shell
+$ BannerBash "0123456789"
+```
+
 <img src="preview/app_repo_numbers.PNG" width="470" />
 
 ## Maths Symbols:
+
+```shell
+$ BannerBash "+-/*%=.<>^"
+```
+
 <img src="preview/app_repo_maths_symbols.PNG" width="470" />
 
 ## Special Characters:
+
+```shell
+$ BannerBash "!?:$;@,&'[]"
+```
+
 <img src="preview/app_repo_special_characters.PNG" width="470" />
 
 
