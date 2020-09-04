@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="preview/app_repo_title.PNG" width="458" /> </h2>
+<h2 align="center"> <img src="preview/app_repo_title_.png" width="458" /> </h2>
 
 <p align="center">
 
