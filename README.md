@@ -17,7 +17,7 @@
       alt="License: Apache" />
   </a>
   	<a href="https://github.com/virtualvivek/BannerBash">
-    <img src="https://img.shields.io/badge/Release-v1.1-darklime.svg?style=flat"
+    <img src="https://img.shields.io/badge/Release-v1.2-darklime.svg?style=flat"
       alt="Release" />
   </a>
   
@@ -90,7 +90,7 @@ $ BannerBash "+-/*%=.<>^"
 ## Special Characters:
 
 ```shell
-$ BannerBash "!?:$;@,&'[]"
+$ BannerBash "!?:$;@,&'[]#"
 ```
 
 <img src="preview/app_repo_special_characters.PNG" width="470" />
