@@ -113,7 +113,27 @@ $ BannerBash "!?:$;@,&'[]#"
 
 <img src="preview/app_repo_special_characters.PNG" width="470" />
 
+# Contributors
 
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center">
+	    <a href="https://github.com/virtualvivek">
+		    <img class="avatar avatar-small" src="https://avatars0.githubusercontent.com/u/54973249" width="100px;" alt="virtualvivek"/><br />
+		    <p><b>virtualvivek</b></p>
+	    </a><br />
+	    <code>  BannerBash  </code>
+    </td>
+    <td align="center">
+	    <a href="https://github.com/gavalian">
+		    <img src="https://avatars1.githubusercontent.com/u/7406678?v=4" width="100px;" alt="gavalian"/><br />
+		    <p><b>gavalian</b></p>
+	    </a><br />
+	    <code>  BannerShell  </code>
+     </td>
+  </tr>
+</table>
 
 ## License:
 
