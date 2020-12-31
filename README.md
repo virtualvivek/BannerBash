@@ -138,5 +138,5 @@ $ BannerBash "!?:$;@,&'[]#"
 ## License:
 
 BannerBash is licensed under `Apache-2.0 license`. View [license](https://github.com/virtualvivek/BannerBash/blob/master/LICENSE).<br>
-Copyright (c) 2020. ` Vivek Verma `
+Copyright (c) 2020-21. ` Vivek Verma `
 
