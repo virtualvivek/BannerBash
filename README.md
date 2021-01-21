@@ -31,9 +31,9 @@
 use command to see a live preview
 ``` shell
 
-$ wget -O - https://raw.githubusercontent.com/virtualvivek/BannerBash/master/library/BannerBash.sh | bash
+$ wget -O - https://raw.githubusercontent.com/virtualvivek/BannerBash/master/BannerBash/BannerBash.sh | bash
 
- ██╗  ██╗ ██╗    ██████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗ ██████╗ 
+ ██╗  ██╗ ██╗    ██████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗ ██████╗╗ 
  ██║  ██║ ██║    ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗
  ███████║ ██║    ██████╦╝ ███████║ ██╔██╗██║ ██╔██╗██║ █████╗   ██████╔╝
  ██╔══██║ ██║    ██╔══██╗ ██╔══██║ ██║╚████║ ██║╚████║ ██╔══╝   ██╔══██╗
