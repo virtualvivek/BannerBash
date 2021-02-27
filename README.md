@@ -17,7 +17,7 @@
       alt="License: Apache" />
   </a>
   	<a href="https://github.com/virtualvivek/BannerBash">
-    <img src="https://img.shields.io/badge/Release-v1.2-darklime.svg?style=flat"
+    <img src="https://img.shields.io/badge/Release-v1.4-darklime.svg?style=flat"
       alt="Release" />
   </a>
   
