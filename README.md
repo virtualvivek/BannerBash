@@ -22,8 +22,7 @@
 
 <p align="center">BannerBash is an awsome library which provides <code>large banner</code> text including <code>alphabets</code>, <code>numbers</code>, <code>maths Symbols</code>, <code>Special characters</code>to your shell script at runtime, integrating this helps your shell scripts to print <b>large headers</b> in cli with ease .It works on matrix pattern sequencer algorithm to provide fast and effective banner view.</p>
 
-## Demo:
-use command to see a live preview
+# Demo:
 ```js
 #!/bin/bash
 
@@ -124,7 +123,7 @@ $ BannerBash "!?:$;@,&'[]#"
   </tr>
 </table>
 
-## License:
+# License:
 
 BannerBash is licensed under `Apache-2.0 license`. View [license](https://github.com/virtualvivek/BannerBash/blob/master/LICENSE).<br>
 Copyright (c) 2020-21. ` Vivek Verma `
