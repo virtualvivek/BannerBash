@@ -20,7 +20,7 @@
 </p>
 
 
-<p align="center">BannerBash is an awsome library which provides <code>large banner</code> text including <code>alphabets</code>, <code>numbers</code>, <code>maths Symbols</code>, <code>Special characters</code>to your shell script at runtime, integrating this helps your shell scripts to print <b>large headers</b> in cli with ease .It works on matrix pattern sequencer algorithm to provide fast and effective banner view.</p>
+<p align="center">BannerBash is a library provides large 3D banner text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
 
 # Demo:
 ```js
