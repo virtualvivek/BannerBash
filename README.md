@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="preview/app_repo_title_.png" width="458" /> </h2>
+<h2 align="center"> <img src="preview/app_repo_title_.png" width="470" /> </h2>
 
 <p align="center">
 	
@@ -25,10 +25,11 @@
 ## Demo:
 use command to see a live preview
 ```js
+#!/bin/bash
 
-$ wget -O - https://raw.githubusercontent.com/virtualvivek/BannerBash/master/BannerBash/BannerBash.sh | bash
+$ BannerBash "Hi Banner"
 
- ██╗  ██╗ ██╗    ██████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗ ██████╗╗ 
+ ██╗  ██╗ ██╗    ██████╗   █████╗  ███╗  ██╗ ███╗  ██╗ ███████╗ ██████╗╗
  ██║  ██║ ██║    ██╔══██╗ ██╔══██╗ ████╗ ██║ ████╗ ██║ ██╔════╝ ██╔══██╗
  ███████║ ██║    ██████╦╝ ███████║ ██╔██╗██║ ██╔██╗██║ █████╗   ██████╔╝
  ██╔══██║ ██║    ██╔══██╗ ██╔══██║ ██║╚████║ ██║╚████║ ██╔══╝   ██╔══██╗
