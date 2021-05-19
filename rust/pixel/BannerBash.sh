@@ -1,12 +1,11 @@
 #!/bin/sh
 
-BannerShell(){
+BannerBash(){
 
 bannerstring=${1}
 bannerstring=`echo $bannerstring | tr '[A-Z]' '[a-z]'`
 length=${#bannerstring}
-#printf "text = $bannerstring\n"
-#printf "len = ${#bannerstring}\n"
+
 i=0
 v_str=""
 while [ $i -lt 6 ]
@@ -15,11 +14,9 @@ do
     while [ $j -lt $length ]
     do
     char=${bannerstring:$j:1}
-    #    if [ $character = "o" ];then printf " \n"; fi;
-    #printf "loop ( $i ) number = $j = $char\n"
+    
     if [ $i -eq 0 ];then 
-        if [ "$char" = "0" ]; then v_str="${v_str}  ██████╗ ";
-        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        if [ "$char" = "0" ];then v_str="${v_str}  ██████╗ ";
         elif [ "$char" = "1" ];then v_str="${v_str}  ██╗";
         elif [ "$char" = "2" ];then v_str="${v_str} ██████╗ ";
         elif [ "$char" = "3" ];then v_str="${v_str} ██████╗ ";
@@ -56,14 +53,37 @@ do
         elif [ "$char" = "x" ];then v_str="${v_str} ██╗  ██╗";
         elif [ "$char" = "y" ];then v_str="${v_str} ██╗   ██╗";
         elif [ "$char" = "z" ];then v_str="${v_str} ███████╗";
+        
+        elif [ "$char" = "+" ];then v_str="${v_str}        ";
+        elif [ "$char" = "-" ];then v_str="${v_str}       ";
+        elif [ "$char" = "*" ];then v_str="${v_str}         ";
+        elif [ "$char" = "/" ];then v_str="${v_str}     ██╗";
+        elif [ "$char" = "=" ];then v_str="${v_str}        ";
+        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        elif [ "$char" = "<" ];then v_str="${v_str}   ██╗";
+        elif [ "$char" = ">" ];then v_str="${v_str} ██╗  ";
+        elif [ "$char" = "%" ];then v_str="${v_str} ██╗ ██╗";
+        elif [ "$char" = "^" ];then v_str="${v_str}     ██    ";
+        
+        elif [ "$char" = "!" ];then v_str="${v_str} ██╗";             
+        elif [ "$char" = "?" ];then v_str="${v_str}  █████╗ ";
+        elif [ "$char" = ":" ];then v_str="${v_str} ██╗";
+        elif [ "$char" = ";" ];then v_str="${v_str} ██╗";
+        elif [ "$char" = "$" ];then v_str="${v_str}  ███████╗";
+        elif [ "$char" = "@" ];then v_str="${v_str}   █████╗ ";
+        elif [ "$char" = "," ];then v_str="${v_str}    ";
+        elif [ "$char" = "&" ];then v_str="${v_str}  ╔██████╗ ";
+        elif [ "$char" = "'" ];then v_str="${v_str} ██╗";
+        elif [ "$char" = "[" ];then v_str="${v_str} ████╗";
+        elif [ "$char" = "]" ];then v_str="${v_str} ████╗";
+        elif [ "$char" = "#" ];then v_str="${v_str}    ██╗ ██╗ ";
 
         elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
             if [ $i -eq 1 -a $j -eq 0 ];then v_str="${v_str}"$'\n';fi;
     
     
     if [ $i -eq 1 ];then 
-        if [ "$char" = "0" ]; then v_str="${v_str} ██╔═████╗";
-        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        if [ "$char" = "0" ];then v_str="${v_str} ██╔═████╗";
         elif [ "$char" = "1" ];then v_str="${v_str} ███║";
         elif [ "$char" = "2" ];then v_str="${v_str} ╚════██╗";
         elif [ "$char" = "3" ];then v_str="${v_str} ╚════██╗";
@@ -100,13 +120,36 @@ do
         elif [ "$char" = "x" ];then v_str="${v_str} ╚██╗██╔╝";
         elif [ "$char" = "y" ];then v_str="${v_str} ╚██╗ ██╔╝";
         elif [ "$char" = "z" ];then v_str="${v_str} ╚════██║";
+        
+        elif [ "$char" = "+" ];then v_str="${v_str}   ██╗  ";
+        elif [ "$char" = "-" ];then v_str="${v_str}       ";
+        elif [ "$char" = "*" ];then v_str="${v_str} ██    ██";
+        elif [ "$char" = "/" ];then v_str="${v_str}    ██╔╝";
+        elif [ "$char" = "=" ];then v_str="${v_str} ██████╗";
+        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        elif [ "$char" = "<" ];then v_str="${v_str}  ██╔╝";
+        elif [ "$char" = ">" ];then v_str="${v_str} ╚██╗ ";
+        elif [ "$char" = "%" ];then v_str="${v_str} ╚═╝██╔╝";
+        elif [ "$char" = "^" ];then v_str="${v_str}   ██  ██  ";
+        
+        elif [ "$char" = "!" ];then v_str="${v_str} ██║";
+        elif [ "$char" = "?" ];then v_str="${v_str} ██╔══██╗";
+        elif [ "$char" = ":" ];then v_str="${v_str} ╚═╝";
+        elif [ "$char" = ";" ];then v_str="${v_str} ╚═╝";
+        elif [ "$char" = "$" ];then v_str="${v_str} ██╔██╔══╝";
+        elif [ "$char" = "@" ];then v_str="${v_str} ██╔══█═██";
+        elif [ "$char" = "," ];then v_str="${v_str}    ";
+        elif [ "$char" = "&" ];then v_str="${v_str}  █════██║ ";
+        elif [ "$char" = "'" ];then v_str="${v_str} ╚█║";
+        elif [ "$char" = "[" ];then v_str="${v_str} ██╔═╝";
+        elif [ "$char" = "]" ];then v_str="${v_str} ╚═██║";
+        elif [ "$char" = "#" ];then v_str="${v_str} ██████████╗";   
         elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
             if [ $i -eq 2 -a $j -eq 0 ];then v_str="${v_str}"$'\n';fi;
             
             
     if [ $i -eq 2 ];then 
-        if [ "$char" = "0" ]; then v_str="${v_str} ██║██╔██║";
-        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        if [ "$char" = "0" ];then v_str="${v_str} ██║██╔██║";
         elif [ "$char" = "1" ];then v_str="${v_str} ╚██║";
         elif [ "$char" = "2" ];then v_str="${v_str}  █████╔╝";
         elif [ "$char" = "3" ];then v_str="${v_str}  █████╔╝";
@@ -143,13 +186,37 @@ do
         elif [ "$char" = "x" ];then v_str="${v_str}  ╚███╔╝ ";
         elif [ "$char" = "y" ];then v_str="${v_str}  ╚████╔╝ ";
         elif [ "$char" = "z" ];then v_str="${v_str}   ███╔═╝";
+        
+        elif [ "$char" = "+" ];then v_str="${v_str} ██████╗";
+        elif [ "$char" = "-" ];then v_str="${v_str} █████╗";
+        elif [ "$char" = "*" ];then v_str="${v_str}   ████  ";
+        elif [ "$char" = "/" ];then v_str="${v_str}   ██╔╝ ";
+        elif [ "$char" = "=" ];then v_str="${v_str} ╚═════╝";
+        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        elif [ "$char" = "<" ];then v_str="${v_str} ██╔╝ ";
+        elif [ "$char" = ">" ];then v_str="${v_str}  ╚██╗";
+        elif [ "$char" = "%" ];then v_str="${v_str}   ██╔╝ ";
+        elif [ "$char" = "^" ];then v_str="${v_str} ██      ██";
+        
+        elif [ "$char" = "!" ];then v_str="${v_str} ██║";
+        elif [ "$char" = "?" ];then v_str="${v_str} ╚═╝███╔╝";
+        elif [ "$char" = ":" ];then v_str="${v_str}    ";
+        elif [ "$char" = ";" ];then v_str="${v_str}    ";
+        elif [ "$char" = "$" ];then v_str="${v_str} ╚██████╗ ";
+        elif [ "$char" = "@" ];then v_str="${v_str} ██║  ████";
+        elif [ "$char" = "," ];then v_str="${v_str}    ";
+        elif [ "$char" = "&" ];then v_str="${v_str}   ███  ╚╝ ";
+        elif [ "$char" = "'" ];then v_str="${v_str}  ╚╝";
+        elif [ "$char" = "[" ];then v_str="${v_str} ██║  ";
+        elif [ "$char" = "]" ];then v_str="${v_str}   ██║";
+        elif [ "$char" = "#" ];then v_str="${v_str} ╚═██╔═██╔═╝";
+        
         elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
             if [ $i -eq 3 -a $j -eq 0 ];then v_str="${v_str}"$'\n';fi;
 
 
     if [ $i -eq 3 ];then 
-        if [ "$char" = "0" ]; then  v_str="${v_str} ████╔╝██║";
-        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        if [ "$char" = "0" ];then v_str="${v_str} ████╔╝██║";
         elif [ "$char" = "1" ];then v_str="${v_str}  ██║";
         elif [ "$char" = "2" ];then v_str="${v_str} ██╔═══╝ ";
         elif [ "$char" = "3" ];then v_str="${v_str}  ╚═══██╗";
@@ -186,13 +253,37 @@ do
         elif [ "$char" = "x" ];then v_str="${v_str}  ██╔██╗ ";
         elif [ "$char" = "y" ];then v_str="${v_str}   ╚██╔╝  ";
         elif [ "$char" = "z" ];then v_str="${v_str} ██╔══╝  ";
+        
+        elif [ "$char" = "+" ];then v_str="${v_str} ╚═██╔═╝";
+        elif [ "$char" = "-" ];then v_str="${v_str} ╚════╝";
+        elif [ "$char" = "*" ];then v_str="${v_str}   ████  ";
+        elif [ "$char" = "/" ];then v_str="${v_str}  ██╔╝  ";
+        elif [ "$char" = "=" ];then v_str="${v_str} ██████╗";
+        elif [ "$char" = "." ];then v_str="${v_str}    ";
+        elif [ "$char" = "<" ];then v_str="${v_str} ╚██╗ ";
+        elif [ "$char" = ">" ];then v_str="${v_str}  ██╔╝";
+        elif [ "$char" = "%" ];then v_str="${v_str}  ██╔╝  ";
+        elif [ "$char" = "^" ];then v_str="${v_str}           ";
+        
+        elif [ "$char" = "!" ];then v_str="${v_str} ╚═╝";
+        elif [ "$char" = "?" ];then v_str="${v_str}    ╚══╝ ";
+        elif [ "$char" = ":" ];then v_str="${v_str}    ";
+        elif [ "$char" = ";" ];then v_str="${v_str} ██╗";
+        elif [ "$char" = "$" ];then v_str="${v_str}  ╚═██╔██╗";
+        elif [ "$char" = "@" ];then v_str="${v_str} ██╚════╝ ";
+        elif [ "$char" = "," ];then v_str="${v_str} ██╗";
+        elif [ "$char" = "&" ];then v_str="${v_str} ██╔══██   ";
+        elif [ "$char" = "'" ];then v_str="${v_str}    ";
+        elif [ "$char" = "[" ];then v_str="${v_str} ██║  ";
+        elif [ "$char" = "]" ];then v_str="${v_str}   ██║";
+        elif [ "$char" = "#" ];then v_str="${v_str} ██████████╗";
+        
         elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
             if [ $i -eq 4 -a $j -eq 0 ];then v_str="${v_str}"$'\n';fi;
 
 
     if [ $i -eq 4 ];then 
-        if [ "$char" = "0" ]; then  v_str="${v_str} ╚██████╔╝";
-        elif [ "$char" = "." ];then v_str="${v_str}██╗ ";
+        if [ "$char" = "0" ];then v_str="${v_str} ╚██████╔╝";
         elif [ "$char" = "1" ];then v_str="${v_str}  ██║";
         elif [ "$char" = "2" ];then v_str="${v_str} ███████╗";
         elif [ "$char" = "3" ];then v_str="${v_str} ██████╔╝";
@@ -229,13 +320,37 @@ do
         elif [ "$char" = "x" ];then v_str="${v_str} ██╔╝╚██╗";
         elif [ "$char" = "y" ];then v_str="${v_str}    ██║   ";
         elif [ "$char" = "z" ];then v_str="${v_str} ███████╗";
+        
+        elif [ "$char" = "+" ];then v_str="${v_str}   ╚═╝  ";
+        elif [ "$char" = "-" ];then v_str="${v_str}       ";
+        elif [ "$char" = "*" ];then v_str="${v_str} ██    ██";
+        elif [ "$char" = "/" ];then v_str="${v_str} ██╔╝   ";
+        elif [ "$char" = "=" ];then v_str="${v_str} ╚═════╝";
+        elif [ "$char" = "." ];then v_str="${v_str} ██╗";
+        elif [ "$char" = "<" ];then v_str="${v_str}  ╚██╗";
+        elif [ "$char" = ">" ];then v_str="${v_str} ██╔╝ ";
+        elif [ "$char" = "%" ];then v_str="${v_str} ██╔╝██╗";
+        elif [ "$char" = "^" ];then v_str="${v_str}           ";
+        
+        elif [ "$char" = "!" ];then v_str="${v_str} ██╗";
+        elif [ "$char" = "?" ];then v_str="${v_str}    ██╗  ";
+        elif [ "$char" = ":" ];then v_str="${v_str} ██╗";
+        elif [ "$char" = ";" ];then v_str="${v_str} ╚█║";
+        elif [ "$char" = "$" ];then v_str="${v_str} ███████╔╝";
+        elif [ "$char" = "@" ];then v_str="${v_str} ╚████████";
+        elif [ "$char" = "," ];then v_str="${v_str} ╚█║";
+        elif [ "$char" = "&" ];then v_str="${v_str} █████████╗";
+        elif [ "$char" = "'" ];then v_str="${v_str}    ";
+        elif [ "$char" = "[" ];then v_str="${v_str} ████╗";
+        elif [ "$char" = "]" ];then v_str="${v_str} ████║";
+        elif [ "$char" = "#" ];then v_str="${v_str} ╚██╔═██╔══╝";
+        
         elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
             if [ $i -eq 5 -a $j -eq 0 ];then v_str="${v_str}"$'\n';fi;
 
 
     if [ $i -eq 5 ];then 
-        if [ "$char" = "0" ]; then  v_str="${v_str}  ╚═════╝ ";
-        elif [ "$char" = "." ];then v_str="${v_str}╚═╝ ";
+        if [ "$char" = "0" ];then v_str="${v_str}  ╚═════╝ ";
         elif [ "$char" = "1" ];then v_str="${v_str}  ╚═╝";
         elif [ "$char" = "2" ];then v_str="${v_str} ╚══════╝";
         elif [ "$char" = "3" ];then v_str="${v_str} ╚═════╝ ";
@@ -272,6 +387,31 @@ do
         elif [ "$char" = "x" ];then v_str="${v_str} ╚═╝  ╚═╝";
         elif [ "$char" = "y" ];then v_str="${v_str}    ╚═╝   ";
         elif [ "$char" = "z" ];then v_str="${v_str} ╚══════╝";
+        
+        elif [ "$char" = "+" ];then v_str="${v_str}        ";
+        elif [ "$char" = "-" ];then v_str="${v_str}       ";
+        elif [ "$char" = "*" ];then v_str="${v_str}         ";
+        elif [ "$char" = "/" ];then v_str="${v_str} ╚═╝    ";
+        elif [ "$char" = "=" ];then v_str="${v_str}        ";
+        elif [ "$char" = "." ];then v_str="${v_str} ╚═╝";
+        elif [ "$char" = "<" ];then v_str="${v_str}   ╚═╝";
+        elif [ "$char" = ">" ];then v_str="${v_str} ╚═╝  ";
+        elif [ "$char" = "%" ];then v_str="${v_str} ╚═╝ ╚═╝";
+        elif [ "$char" = "^" ];then v_str="${v_str}           ";
+        
+        elif [ "$char" = "!" ];then v_str="${v_str} ╚═╝";
+        elif [ "$char" = "?" ];then v_str="${v_str}    ╚═╝  ";
+        elif [ "$char" = ":" ];then v_str="${v_str} ╚═╝";
+        elif [ "$char" = ";" ];then v_str="${v_str}  ╚╝";
+        elif [ "$char" = "$" ];then v_str="${v_str} ╚══════╝ ";
+        elif [ "$char" = "@" ];then v_str="${v_str}  ╚══════╝";
+        elif [ "$char" = "," ];then v_str="${v_str}  ╚╝";
+        elif [ "$char" = "&" ];then v_str="${v_str} ╚════════╝";
+        elif [ "$char" = "'" ];then v_str="${v_str}    ";
+        elif [ "$char" = "[" ];then v_str="${v_str} ╚═══╝";
+        elif [ "$char" = "]" ];then v_str="${v_str} ╚═══╝";
+        elif [ "$char" = "#" ];then v_str="${v_str}  ╚═╝ ╚═╝   ";
+        
         elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
         
     j=$((j+1))
@@ -281,4 +421,4 @@ done
 printf "$v_str\n"
 }
 #==============================================================
-BannerShell "Hi Shell"
+BannerBash "Hi Shell"
