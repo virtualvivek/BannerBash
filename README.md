@@ -1,4 +1,4 @@
-<h2 align="center"> <img src="preview/app_repo_title_.png" width="470" /> </h2>
+<h2 align="center"> <img src="_markdown/app_repo_title_.png" width="470" /> </h2>
 
 <p align="center">
 	
@@ -21,6 +21,12 @@
 
 
 <p align="center">BannerBash is a library provides large 3D banner text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
+
+## Text Styles:
+# Pixel | [Retro](_main/retro)
+
+## Language:
+# Shell | [Rust](rust/pixel)
 
 # Demo:
 ```js
@@ -71,7 +77,7 @@ $ BannerBash "abcdefghijklmnopqrstuvwxyz"
 $ BannerShell "abcdefghijklmnopqrstuvwxyz"
 ```
 
-<img src="preview/app_repo_alphabets.PNG" width="500" />
+<img src="_markdown/app_repo_alphabets.png" width="500" />
 
 ## ‣Numbers:
 
@@ -83,7 +89,7 @@ $ BannerBash "0123456789"
 $ BannerShell "0123456789"
 ```
 
-<img src="preview/app_repo_numbers.PNG" width="500" />
+<img src="_markdown/app_repo_numbers.png" width="500" />
 
 ## ‣Maths Symbols:
 
@@ -91,7 +97,7 @@ $ BannerShell "0123456789"
 $ BannerBash "+-/*%=.<>^"
 ```
 
-<img src="preview/app_repo_maths_symbols.PNG" width="500" />
+<img src="_markdown/app_repo_maths_symbols.png" width="500" />
 
 ## ‣Special Characters:
 
@@ -99,29 +105,11 @@ $ BannerBash "+-/*%=.<>^"
 $ BannerBash "!?:$;@,&'[]#"
 ```
 
-<img src="preview/app_repo_special_characters.PNG" width="500" />
+<img src="_markdown/app_repo_special_characters.png" width="500" />
 
-# Contributors
 
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center">
-    	<a href="https://github.com/virtualvivek">
-	    <img class="avatar avatar-small" src="https://avatars0.githubusercontent.com/u/54973249" width="100px;" alt="virtualvivek"/><br />
-	    <p><b>virtualvivek</b></p>
-	    </a><br />
-    	<code>  BannerBash  </code>
-    </td>
-    <td align="center">
-    	<a href="https://github.com/gavalian">
-	    <img src="https://avatars1.githubusercontent.com/u/7406678?v=4" width="100px;" alt="gavalian"/><br />
-	    <p><b>gavalian</b></p>
-    	</a><br />
-    	<code>  BannerShell  </code>
-     </td>
-  </tr>
-</table>
+## Find this library useful? :heart:
+Support it by joining [stargazers](https://github.com/virtualvivek/BannerBash/stargazers) for this repository. :star:
 
 # License:
 
