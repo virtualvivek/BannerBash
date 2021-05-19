@@ -71,7 +71,7 @@ $ BannerBash "abcdefghijklmnopqrstuvwxyz"
 $ BannerShell "abcdefghijklmnopqrstuvwxyz"
 ```
 
-<img src="_markdown/app_repo_alphabets.PNG" width="500" />
+<img src="_markdown/app_repo_alphabets.png" width="500" />
 
 ## ‣Numbers:
 
@@ -83,7 +83,7 @@ $ BannerBash "0123456789"
 $ BannerShell "0123456789"
 ```
 
-<img src="_markdown/app_repo_numbers.PNG" width="500" />
+<img src="_markdown/app_repo_numbers.png" width="500" />
 
 ## ‣Maths Symbols:
 
@@ -91,7 +91,7 @@ $ BannerShell "0123456789"
 $ BannerBash "+-/*%=.<>^"
 ```
 
-<img src="_markdown/app_repo_maths_symbols.PNG" width="500" />
+<img src="_markdown/app_repo_maths_symbols.png" width="500" />
 
 ## ‣Special Characters:
 
@@ -99,7 +99,7 @@ $ BannerBash "+-/*%=.<>^"
 $ BannerBash "!?:$;@,&'[]#"
 ```
 
-<img src="_markdown/app_repo_special_characters.PNG" width="500" />
+<img src="_markdown/app_repo_special_characters.png" width="500" />
 
 
 ## Find this library useful? :heart:
