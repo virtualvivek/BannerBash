@@ -22,10 +22,10 @@
 
 <p align="center">BannerBash is a library provides large 3D banner text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
 
-## Text Styles:
+## ‣Text Styles:
 # Pixel | [Retro](_main/retro)
 
-## Language:
+## ‣Language:
 # Shell | [Rust](rust/pixel)
 
 # Demo:
@@ -48,22 +48,29 @@ $ BannerBash "Hi Banner"
 Download the latest version of BannerBash : <a href="https://github.com/virtualvivek/BannerBash/releases/latest"><img src="https://img.shields.io/badge/Download-BannerBash : latest-darklime.svg?style=flat" alt="Download Latest" /></a>
 
 #### Include `BannerBash` / `BannerShell` folder in your target project folder.
+```htm
+
+./
+ ├─ _main/
+ │  ├─ pixel/
+ │  │  └─ BannerBash.sh
+ │  └─ retro/
+ │     └─ BannerBash.sh
+ ├─ rust/
+    ├─ pixel/
+    │  └─ banner_bash.rs
+```
+
 
 ### BannerBash
 ```bash
 .BannerBash/BannerBash.sh
-```
-### BannerShell
-```sh
-.BannerShell/BannerShell.sh
 ```
 
 # Usage:
 
 ```js
 $ BannerBash "Argument String"
-	   ----
-$ BannerShell "Argument String"
 ```
 
 ## ‣Alphabets:
@@ -73,20 +80,12 @@ $ BannerBash "abcdefghijklmnopqrstuvwxyz"
 
 ```
 
-```js
-$ BannerShell "abcdefghijklmnopqrstuvwxyz"
-```
-
 <img src="_markdown/app_repo_alphabets.png" width="500" />
 
 ## ‣Numbers:
 
 ```js
 $ BannerBash "0123456789"
-```
-
-```js
-$ BannerShell "0123456789"
 ```
 
 <img src="_markdown/app_repo_numbers.png" width="500" />
