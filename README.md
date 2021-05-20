@@ -67,6 +67,7 @@ Include **library folder** in your target project folder.
     │  └─ banner_bash.rs
     └─ retro/
        └─ banner_bash.rs
+​
 ```
 
 # Usage:
@@ -137,7 +138,7 @@ $ BannerBash "!?:$;@,&'[]#"
 <img src="_markdown/app_repo_special_characters.png" width="500" />
 
 
-## Find this library useful? :heart:
+# Find this library useful? :heart:
 Support it by joining [stargazers](https://github.com/virtualvivek/BannerBash/stargazers) for this repository. :star:
 
 # License:
