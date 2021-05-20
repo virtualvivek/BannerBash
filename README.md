@@ -51,7 +51,7 @@ Text Style **Retro ‣**
 
 # Installation: 
 
-Download the latest version of BannerBash : <a href="https://github.com/virtualvivek/BannerBash/releases/latest"><img src="https://img.shields.io/badge/Download-BannerBash : latest-darklime.svg?style=flat" alt="Download Latest" /></a>
+Download the latest version of BannerBash : <a href="https://github.com/virtualvivek/BannerBash/releases/latest"><img src="https://img.shields.io/badge/Download-BannerBash : latest-darklime.svg?style=flat-square&logo=docusign&color=E3DA59" alt="Download Latest" /></a>
 
 Include **library folder** in your target project folder.
 ```htm
