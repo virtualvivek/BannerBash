@@ -3,7 +3,7 @@
 <p align="center">
 	
 <a href="https://www.google.com/search?q=web">
-    <img src="https://img.shields.io/badge/Platforms-Unix Shell | Rust-yellow.svg?style=flat-square&color=41607A"
+    <img src="https://img.shields.io/badge/Platforms-Unix Shell | Rust | Javascript | Python-yellow.svg?style=flat-square&color=41607A"
       alt="Platforms" />
 </a>
 
@@ -27,7 +27,7 @@
 # Pixel | [Retro](_main/retro)
 
 ## Language:‣
-# Shell | [Rust](rust/pixel)
+# Shell | [Rust](rust/pixel) | [Python](python/pixel) | [Javascript](javascript/pixel)
 
 # Demo:
 
@@ -45,8 +45,8 @@ Text Style **Pixel ‣**
 Text Style **Retro ‣**
 ```js
 ​
- █░█ █    █▄▄ ▄▀█ █▄░█ █▄░█ █▀▀ █▀█
- █▀█ █    █▄█ █▀█ █░▀█ █░▀█ ██▄ █▀▄
+ █░█ █  █▄▄ ▄▀█ █▄░█ █▄░█ █▀▀ █▀█
+ █▀█ █  █▄█ █▀█ █░▀█ █░▀█ ██▄ █▀▄
  
 ```
 
