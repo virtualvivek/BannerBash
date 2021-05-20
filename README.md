@@ -3,10 +3,11 @@
 <p align="center">
 	
 <a href="https://www.google.com/search?q=web">
-    <img src="https://img.shields.io/badge/Platform-Unix Shell-yellow.svg?style=flat-square&color=41607A"
-      alt="Unix Shell" />
+    <img src="https://img.shields.io/badge/Platforms-Unix Shell | Rust-yellow.svg?style=flat-square&color=41607A"
+      alt="Platforms" />
 </a>
-  	
+
+<br/>
 <a href="https://github.com/virtualvivek/BannerBash/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/vivekverma007/BannerBash.svg?style=flat-square&color=blue"
       alt="License: Apache" />
