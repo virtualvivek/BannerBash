@@ -65,6 +65,8 @@ Include **library folder** in your target project folder.
  ├─ rust/
     ├─ pixel/
     │  └─ banner_bash.rs
+    └─ retro/
+       └─ banner_bash.rs
 ```
 
 # Usage:
