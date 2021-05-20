@@ -23,11 +23,11 @@
 
 <p align="center">BannerBash is a library provides large 3D banner text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
 
-## Text Styles:‣
-# Pixel | [Retro](_main/retro)
+# Text Styles:‣
+## Pixel | [Retro](_main/retro)
 
-## Language:‣
-# Shell | [Rust](rust/pixel) | [Python](python/pixel) | [Javascript](javascript/pixel)
+# Language:‣
+## Shell | [Rust](rust/pixel) | [Python](python/pixel) | [Javascript](javascript/pixel)
 
 # Demo:
 
