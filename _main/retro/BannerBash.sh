@@ -8,6 +8,8 @@ length=${#bannerstring}
 
 i=0
 v_str=""
+spacebar_="  "
+
 while [ $i -lt 2 ]
 do
     j=0
@@ -78,7 +80,7 @@ do
         elif [ "$char" = "]" ];then v_str="${v_str} ▀█";
         elif [ "$char" = "#" ];then v_str="${v_str} ▄█▄█▄";
 
-        elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
+        elif [ "$char" = " " ];then v_str="${v_str}${spacebar_}";fi;fi;
             if [ $i -eq 1 -a $j -eq 0 ];then v_str="${v_str}"$'\n';fi;
     
     
@@ -145,7 +147,7 @@ do
         elif [ "$char" = "]" ];then v_str="${v_str} ▄█";
         elif [ "$char" = "#" ];then v_str="${v_str} ▄█▄█▄";
         
-        elif [ "$char" = " " ];then v_str="${v_str}   ";fi;fi;
+        elif [ "$char" = " " ];then v_str="${v_str}${spacebar_}";fi;fi;
         
     j=$((j+1))
     done

@@ -9,12 +9,13 @@ let length = bannerstring.length;
 let i=0;
 let v_str="";
 let char="";
+let spacebar_="&nbsp;&nbsp;&nbsp;&nbsp;";
 
 while ( i < 6 ){
     let j=0;
     while ( j < length ){
     
-    char=bannerstring[j];
+    char=bannerstring[j].toLowerCase();
     
     if ( i == 0 ){
         if ( char == "0" ){ v_str+=" ░█████╗░"; }
@@ -64,22 +65,22 @@ while ( i < 6 ){
         else if ( char == "<" ){ v_str+=" ░░██╗"; }
         else if ( char == ">" ){ v_str+=" ██╗░░"; }
         else if ( char == "%" ){ v_str+=" ██╗░██╗"; }
-        else if ( char == "^" ){ v_str+="     ██    "; }
+        else if ( char == "^" ){ v_str+=" ░░░░██░░░░"; }
         
         else if ( char == "!" ){ v_str+=" ██╗"; }             
         else if ( char == "?" ){ v_str+=" ░█████╗░"; }
         else if ( char == ":" ){ v_str+=" ██╗"; }
         else if ( char == ";" ){ v_str+=" ██╗"; }
         else if ( char == "$" ){ v_str+=" ░███████╗"; }
-        else if ( char == "@" ){ v_str+="  ░█████╗░░"; }
+        else if ( char == "@" ){ v_str+=" ░█████╗░░"; }
         else if ( char == "," ){ v_str+=" ░░░"; }
-        else if ( char == "&" ){ v_str+="  ╔██████╗ "; }
+        else if ( char == "&" ){ v_str+=" ╔██████╗░░"; }
         else if ( char == "'" ){ v_str+=" ██╗"; }
         else if ( char == "[" ){ v_str+=" ████╗"; }
         else if ( char == "]" ){ v_str+=" ████╗"; }
         else if ( char == "#" ){ v_str+=" ░░░██╗░██╗░"; }
 
-        else if ( char == " " ){ v_str+="&nbsp;&nbsp;"; }
+        else if ( char == " " ){ v_str+= spacebar_; }
     }
     if ( i == 1 && j == 0 ){ v_str+="<br/>"; }
     
@@ -132,7 +133,7 @@ while ( i < 6 ){
         else if ( char == "<" ){ v_str+=" ░██╔╝"; }
         else if ( char == ">" ){ v_str+=" ╚██╗░"; }
         else if ( char == "%" ){ v_str+=" ╚═╝██╔╝"; }
-        else if ( char == "^" ){ v_str+="   ██  ██  "; }
+        else if ( char == "^" ){ v_str+=" ░░██░░██░░"; }
         
         else if ( char == "!" ){ v_str+=" ██║"; }
         else if ( char == "?" ){ v_str+=" ██╔══██╗"; }
@@ -141,12 +142,12 @@ while ( i < 6 ){
         else if ( char == "$" ){ v_str+=" ██╔██╔══╝"; }
         else if ( char == "@" ){ v_str+=" ██╔═█═██░"; }
         else if ( char == "," ){ v_str+=" ░░░"; }
-        else if ( char == "&" ){ v_str+="  █════██║ "; }
+        else if ( char == "&" ){ v_str+="  █════██║░░"; }
         else if ( char == "'" ){ v_str+=" ╚█║"; }
         else if ( char == "[" ){ v_str+=" ██╔═╝"; }
         else if ( char == "]" ){ v_str+=" ╚═██║"; }
         else if ( char == "#" ){ v_str+=" ██████████╗"; }   
-        else if ( char == " " ){ v_str+="&nbsp;&nbsp;"; }
+        else if ( char == " " ){ v_str+= spacebar_; }
     }
     if ( i == 2 && j == 0 ){ v_str+="<br/>";}
             
@@ -199,7 +200,7 @@ while ( i < 6 ){
         else if ( char == "<" ){ v_str+=" ██╔╝░"; }
         else if ( char == ">" ){ v_str+=" ░╚██╗"; }
         else if ( char == "%" ){ v_str+=" ░░██╔╝░"; }
-        else if ( char == "^" ){ v_str+=" ██      ██"; }
+        else if ( char == "^" ){ v_str+=" ██░░░░░░██"; }
         
         else if ( char == "!" ){ v_str+=" ██║"; }
         else if ( char == "?" ){ v_str+=" ╚═╝███╔╝"; }
@@ -208,13 +209,13 @@ while ( i < 6 ){
         else if ( char == "$" ){ v_str+=" ╚██████╗░"; }
         else if ( char == "@" ){ v_str+=" ██║░████░"; }
         else if ( char == "," ){ v_str+=" ░░░"; }
-        else if ( char == "&" ){ v_str+="   ███  ╚╝ "; }
+        else if ( char == "&" ){ v_str+="  ░███░░╚╝░░"; }
         else if ( char == "'" ){ v_str+=" ░╚╝"; }
         else if ( char == "[" ){ v_str+=" ██║░░"; }
         else if ( char == "]" ){ v_str+=" ░░██║"; }
         else if ( char == "#" ){ v_str+=" ╚═██╔═██╔═╝"; }
         
-        else if ( char == " " ){ v_str+="&nbsp;&nbsp;"; }
+        else if ( char == " " ){ v_str+= spacebar_; }
     }
     if ( i == 3 && j == 0 ){ v_str+="<br/>"; }
 
@@ -264,10 +265,10 @@ while ( i < 6 ){
         else if ( char == "/" ){ v_str+=" ░██╔╝░░"; }
         else if ( char == "=" ){ v_str+=" ██████╗"; }
         else if ( char == "." ){ v_str+=" ░░░"; }
-        else if ( char == "<" ){ v_str+=" ╚██╗ "; }
-        else if ( char == ">" ){ v_str+="  ██╔╝"; }
+        else if ( char == "<" ){ v_str+=" ╚██╗░"; }
+        else if ( char == ">" ){ v_str+=" ░██╔╝"; }
         else if ( char == "%" ){ v_str+=" ░██╔╝░░"; }
-        else if ( char == "^" ){ v_str+="           "; }
+        else if ( char == "^" ){ v_str+=" ░░░░░░░░░░"; }
         
         else if ( char == "!" ){ v_str+=" ╚═╝"; }
         else if ( char == "?" ){ v_str+=" ░░░╚══╝░"; }
@@ -276,13 +277,13 @@ while ( i < 6 ){
         else if ( char == "$" ){ v_str+=" ░╚═██╔██╗"; }
         else if ( char == "@" ){ v_str+=" ██╚════╝░"; }
         else if ( char == "," ){ v_str+=" ██╗"; }
-        else if ( char == "&" ){ v_str+=" ██╔══██   "; }
+        else if ( char == "&" ){ v_str+=" ██╔══██░░░"; }
         else if ( char == "'" ){ v_str+=" ░░░"; }
         else if ( char == "[" ){ v_str+=" ██║░░"; }
         else if ( char == "]" ){ v_str+=" ░░██║"; }
         else if ( char == "#" ){ v_str+=" ██████████╗"; }
         
-        else if ( char == " " ){ v_str+="&nbsp;&nbsp;"; }
+        else if ( char == " " ){ v_str+= spacebar_; }
     }
     if ( i == 4 && j == 0 ){ v_str+="<br/>";}
 
@@ -335,7 +336,7 @@ while ( i < 6 ){
         else if ( char == "<" ){ v_str+=" ░╚██╗"; }
         else if ( char == ">" ){ v_str+=" ██╔╝░"; }
         else if ( char == "%" ){ v_str+=" ██╔╝██╗"; }
-        else if ( char == "^" ){ v_str+="           "; }
+        else if ( char == "^" ){ v_str+=" ░░░░░░░░░░"; }
         
         else if ( char == "!" ){ v_str+=" ██╗"; }
         else if ( char == "?" ){ v_str+=" ░░░██╗░░"; }
@@ -350,7 +351,7 @@ while ( i < 6 ){
         else if ( char == "]" ){ v_str+=" ████║"; }
         else if ( char == "#" ){ v_str+=" ╚██╔═██╔══╝"; }
         
-        else if ( char == " " ){ v_str+="&nbsp;&nbsp;"; }
+        else if ( char == " " ){ v_str+= spacebar_; }
     }
     if ( i == 5 && j == 0 ){ v_str+="<br/>";}
 
@@ -403,7 +404,7 @@ while ( i < 6 ){
         else if ( char == "<" ){ v_str+=" ░░╚═╝"; }
         else if ( char == ">" ){ v_str+=" ╚═╝░░"; }
         else if ( char == "%" ){ v_str+=" ╚═╝░╚═╝"; }
-        else if ( char == "^" ){ v_str+="           "; }
+        else if ( char == "^" ){ v_str+=" ░░░░░░░░░░"; }
         
         else if ( char == "!" ){ v_str+=" ╚═╝"; }
         else if ( char == "?" ){ v_str+=" ░░░╚═╝░░"; }
@@ -418,7 +419,7 @@ while ( i < 6 ){
         else if ( char == "]" ){ v_str+=" ╚═══╝"; }
         else if ( char == "#" ){ v_str+=" ░╚═╝░╚═╝░░░"; }
         
-        else if ( char == " " ){ v_str+="&nbsp;&nbsp;"; }
+        else if ( char == " " ){ v_str+= spacebar_; }
     }
     j+=1;
   }
@@ -427,7 +428,7 @@ while ( i < 6 ){
  return v_str;
 }
 //==============================================================
-document.write(bannerBash("$[]';"));
+document.write(bannerBash("+-<>/="));
 </script>
 </head>
 <body>
