@@ -55,7 +55,7 @@ Text Style **Retro ‣**
 Download the latest version of BannerBash : <a href="https://github.com/virtualvivek/BannerBash/releases/latest"><img src="https://img.shields.io/badge/Download-BannerBash : latest-darklime.svg?style=flat-square&logo=docusign&color=E3DA59" alt="Download Latest" /></a>
 
 Include **library folder** in your target project folder.
-```htm
+```ts
 
 ./
  ├─ _main/
@@ -64,10 +64,20 @@ Include **library folder** in your target project folder.
  │  └─ retro/
  │     └─ BannerBash.sh
  ├─ rust/
-    ├─ pixel/
-    │  └─ banner_bash.rs
-    └─ retro/
-       └─ banner_bash.rs
+ │  ├─ pixel/
+ │  │  └─ banner_bash.rs
+ │  └─ retro/
+ │     └─ banner_bash.rs
+ ├─ javascript/
+ │  ├─ pixel/
+ │  │  └─ bannerBash.js
+ │  └─ retro/
+ │     └─ bannerBash.js
+ ├─ python/
+ │  ├─ pixel/
+ │  │  └─ banner_bash.py
+ │  └─ retro/
+ │     └─ banner_bash.py
 ​
 ```
 
