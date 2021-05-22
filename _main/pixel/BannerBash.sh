@@ -57,7 +57,7 @@ do
         
         elif [ "$char" = "+" ];then v_str="${v_str} ░░░░░░░";
         elif [ "$char" = "-" ];then v_str="${v_str} ░░░░░░";
-        elif [ "$char" = "*" ];then v_str="${v_str}         ";
+        elif [ "$char" = "*" ];then v_str="${v_str} ░░░░░░░░";
         elif [ "$char" = "/" ];then v_str="${v_str} ░░░░██╗";
         elif [ "$char" = "=" ];then v_str="${v_str} ░░░░░░░";
         elif [ "$char" = "." ];then v_str="${v_str} ░░░";
@@ -124,7 +124,7 @@ do
         
         elif [ "$char" = "+" ];then v_str="${v_str} ░░██╗░░";
         elif [ "$char" = "-" ];then v_str="${v_str} ░░░░░░";
-        elif [ "$char" = "*" ];then v_str="${v_str} ██    ██";
+        elif [ "$char" = "*" ];then v_str="${v_str} ██░░░░██";
         elif [ "$char" = "/" ];then v_str="${v_str} ░░░██╔╝";
         elif [ "$char" = "=" ];then v_str="${v_str} ██████╗";
         elif [ "$char" = "." ];then v_str="${v_str} ░░░";
@@ -191,7 +191,7 @@ do
         
         elif [ "$char" = "+" ];then v_str="${v_str} ██████╗";
         elif [ "$char" = "-" ];then v_str="${v_str} █████╗";
-        elif [ "$char" = "*" ];then v_str="${v_str}   ████  ";
+        elif [ "$char" = "*" ];then v_str="${v_str} ░░████░░";
         elif [ "$char" = "/" ];then v_str="${v_str} ░░██╔╝░";
         elif [ "$char" = "=" ];then v_str="${v_str} ╚═════╝";
         elif [ "$char" = "." ];then v_str="${v_str} ░░░";
@@ -258,7 +258,7 @@ do
         
         elif [ "$char" = "+" ];then v_str="${v_str} ╚═██╔═╝";
         elif [ "$char" = "-" ];then v_str="${v_str} ╚════╝";
-        elif [ "$char" = "*" ];then v_str="${v_str}   ████  ";
+        elif [ "$char" = "*" ];then v_str="${v_str} ░░████░░";
         elif [ "$char" = "/" ];then v_str="${v_str} ░██╔╝░░";
         elif [ "$char" = "=" ];then v_str="${v_str} ██████╗";
         elif [ "$char" = "." ];then v_str="${v_str} ░░░";
@@ -325,7 +325,7 @@ do
         
         elif [ "$char" = "+" ];then v_str="${v_str} ░░╚═╝░░";
         elif [ "$char" = "-" ];then v_str="${v_str} ░░░░░░";
-        elif [ "$char" = "*" ];then v_str="${v_str} ██    ██";
+        elif [ "$char" = "*" ];then v_str="${v_str} ██░░░░██";
         elif [ "$char" = "/" ];then v_str="${v_str} ██╔╝░░░";
         elif [ "$char" = "=" ];then v_str="${v_str} ╚═════╝";
         elif [ "$char" = "." ];then v_str="${v_str} ██╗";
@@ -392,7 +392,7 @@ do
         
         elif [ "$char" = "+" ];then v_str="${v_str} ░░░░░░░";
         elif [ "$char" = "-" ];then v_str="${v_str} ░░░░░░";
-        elif [ "$char" = "*" ];then v_str="${v_str}         ";
+        elif [ "$char" = "*" ];then v_str="${v_str} ░░░░░░░░";
         elif [ "$char" = "/" ];then v_str="${v_str} ╚═╝░░░░";
         elif [ "$char" = "=" ];then v_str="${v_str} ░░░░░░░";
         elif [ "$char" = "." ];then v_str="${v_str} ╚═╝";
