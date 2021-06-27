@@ -52,7 +52,10 @@ Text Style **Retro ‣**
 
 # Installation: 
 
-Download the latest version of BannerBash : <a href="https://github.com/virtualvivek/BannerBash/releases/latest"><img src="https://img.shields.io/badge/Download-BannerBash : latest-darklime.svg?style=flat-square&logo=docusign&color=E3DA59" alt="Download Latest" /></a>
+Download the latest version of BannerBash :<br/>
+<a href="https://github.com/virtualvivek/BannerBash/releases/latest">
+  <img src="https://img.shields.io/badge/Download-BannerBash : @latest-darklime.svg?style=for-the-badge&logo=docusign&color=E3DA59" alt="Download Latest" />
+</a>
 
 Include **library folder** in your target project folder.
 ```css
@@ -150,9 +153,9 @@ $ BannerBash "!?:$;@,&'[]#"
 
 
 # Find this library useful? :heart:
-Support it by joining [stargazers](https://github.com/virtualvivek/BannerBash/stargazers) for this repository. :star:
+Support it by joining [**stargazers**](https://github.com/virtualvivek/BannerBash/stargazers) for this repository. :star:
 
 # License:
 
 BannerBash is licensed under `Apache-2.0 license`. View [license](https://github.com/virtualvivek/BannerBash/blob/master/LICENSE).<br>
-Copyright (c) 2020-21. ` Vivek Verma `
+Copyright (c) 2020-21. [**Vivek Verma**](https://github.com/virtualvivek)
