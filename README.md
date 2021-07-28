@@ -3,7 +3,7 @@
 <p align="center">
 	
 <a href="https://www.google.com/search?q=web">
-    <img src="https://img.shields.io/badge/Platforms-Unix Shell | Rust | Javascript | Python-yellow.svg?style=flat-square&color=41607A"
+    <img src="https://img.shields.io/badge/Platforms-Unix Shell | Rust | Javascript | Python-yellow.svg?style=flat-square&color=41607A&logo=WindowsTerminal&logoColor=ffffff"
       alt="Platforms" />
 </a>
 
@@ -76,11 +76,11 @@ Include **library folder** in your target project folder.
  │  │  └─ bannerBash.js
  │  └─ retro/
  │     └─ bannerBash.js
- ├─ python/
- │  ├─ pixel/
- │  │  └─ banner_bash.py
- │  └─ retro/
- │     └─ banner_bash.py
+ └─ python/
+    ├─ pixel/
+    │  └─ banner_bash.py
+    └─ retro/
+       └─ banner_bash.py
 ​
 ```
 
