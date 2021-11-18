@@ -21,7 +21,7 @@
 </p>
 
 
-<p align="center">BannerBash is a library provides large 3D banner text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
+<p align="center">BannerBash is a library provides <b>large 3D banner</b> text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
 
 # Text Styles:‣
 ## Pixel | [Retro](_main/retro)
@@ -31,7 +31,7 @@
 
 # Demo:
 
-Text Style **Pixel ‣**
+## Text Style `Pixel` ‣
 ```js
 ​
 ██╗░░██╗ ██╗   ██████╗░ ░█████╗░ ███╗░░██╗ ███╗░░██╗ ███████╗ ██████╗░
@@ -42,7 +42,7 @@ Text Style **Pixel ‣**
 ╚═╝░░╚═╝ ╚═╝   ╚═════╝░ ╚═╝░░╚═╝ ╚═╝░░╚══╝ ╚═╝░░╚══╝ ╚══════╝ ╚═╝░░╚═╝
 
 ```
-Text Style **Retro ‣**
+## Text Style `Retro` ‣
 ```js
 ​
  █░█ █  █▄▄ ▄▀█ █▄░█ █▄░█ █▀▀ █▀█
@@ -54,7 +54,7 @@ Text Style **Retro ‣**
 
 Download the latest version of BannerBash :<br/>
 <a href="https://github.com/virtualvivek/BannerBash/releases/latest">
-  <img src="https://img.shields.io/badge/Download-BannerBash : @latest-darklime.svg?style=for-the-badge&logo=docusign&color=E3DA59" alt="Download Latest" />
+  <br/><img src="https://img.shields.io/badge/Download-BannerBash : @latest-darklime.svg?style=for-the-badge&logo=docusign&color=FFCB22" alt="Download Latest" />
 </a>
 
 Include **library folder** in your target project folder.
