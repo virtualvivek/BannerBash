@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <title>Web Page Design</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="./_markdown/demo/index.css" />
+    <script src="./src/javascript/pixel/bannerBash.js"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <span class="title">BannerBash</span>
+      <span>Github</span>
+    </div>
+    <div class="container">
+      <div id="input_div"><h1>Banner</h1></div>
+      <br/>
+      <input type="text" placeholder="write your text here" id="input_text"/>
+      <button onclick="onTextChange_();">Create Banner</button>
+      <br/>
+
+      <span><b>Available strings</b></span><br/><br/>
+      <span>abcdefghijklmnopqrstuvwxyz</span><br/>
+      <span>0123456789</span><br/>
+      <span>+-/*%=.<>^</span><br/>
+      <span>!?:$;@,&'[]#</span>
+
+    </div>
+  <div>
+    <script>
+      function onTextChange_() {
+        let val = document.getElementById("input_text").value;
+        document.getElementById("input_div").innerHTML = bannerBash(val);
+      }
+    </script>
+  </div>
+  
+  </body>
+</html>

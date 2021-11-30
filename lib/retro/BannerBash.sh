@@ -1,23 +1,23 @@
 #!/bin/sh
 
-BannerBash(){
+BannerBash() {
 
-bannerstring=${1}
-bannerstring=`echo $bannerstring | tr '[A-Z]' '[a-z]'`
-length=${#bannerstring}
+  bannerstring = ${1}
+  bannerstring = `echo $bannerstring | tr '[A-Z]' '[a-z]'`
+  length = ${#bannerstring}
 
-i=0
-v_str=""
-spacebar_="  "
+  i=0
+  v_str=""
+  spacebar_="  "
 
-while [ $i -lt 2 ]
-do
+  while [ $i -lt 2 ]
+  do
     j=0
     while [ $j -lt $length ]
     do
-    char=${bannerstring:$j:1}
-    
-    if [ $i -eq 0 ];then 
+      char = ${bannerstring:$j:1}
+      
+      if [ $i -eq 0 ];then 
         if [ "$char" = "0" ];then v_str="${v_str} █▀█";
         elif [ "$char" = "1" ];then v_str="${v_str} ▄█";
         elif [ "$char" = "2" ];then v_str="${v_str} ▀█";
@@ -82,9 +82,9 @@ do
 
         elif [ "$char" = " " ];then v_str="${v_str}${spacebar_}";fi;fi;
             if [ $i -eq 1 -a $j -eq 0 ];then v_str="${v_str}"$'\n';fi;
-    
-    
-    if [ $i -eq 1 ];then 
+      
+      
+      if [ $i -eq 1 ];then 
         if [ "$char" = "0" ];then v_str="${v_str} █▄█";
         elif [ "$char" = "1" ];then v_str="${v_str} ░█";
         elif [ "$char" = "2" ];then v_str="${v_str} █▄";
@@ -148,12 +148,12 @@ do
         elif [ "$char" = "#" ];then v_str="${v_str} ▄█▄█▄";
         
         elif [ "$char" = " " ];then v_str="${v_str}${spacebar_}";fi;fi;
-        
-    j=$((j+1))
+          
+      j=$((j+1))
     done
     i=$((i+1))
-done
-printf "$v_str\n"
+  done
+  printf "$v_str\n"
 }
 #==============================================================
-BannerBash "hellow world"
+# BannerBash "hellow world"

@@ -1,0 +1,55 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  background-color: #f7f7ff;
+  padding: 15px 20vw;
+}
+
+.navbar .title {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.container {
+  width: 80vw;
+  margin: 10px auto;
+}
+
+#input_div {
+  width: 80%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  border: 1px solid #d9d9d9;
+}
+input[type="text"]:focus,
+input[type="text"]:active {
+  outline: none;
+  border: 1px solid #888888;
+}
+
+button {
+  min-height: 40px;
+  background: #1890ff;
+  border: none;
+  color: #fff;
+  padding: 0 10px;
+  border-radius: 8px;
+}
+button:hover {
+  background: #4ba6fa;
+}
+button:active {
+  background: #0c70cc;
+}
