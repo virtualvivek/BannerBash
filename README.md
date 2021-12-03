@@ -1,6 +1,7 @@
 <h2 align="center"> <img src="_markdown/app_repo_title_.png" width="470" /> </h2>
 
 <p align="center">
+
 	
 <a href="https://www.google.com/search?q=web">
     <img src="https://img.shields.io/badge/Platforms-Unix Shell | Rust | Javascript | Python-yellow.svg?style=flat-square&color=41607A&logo=WindowsTerminal&logoColor=ffffff"
@@ -19,6 +20,8 @@
 </a>
   
 </p>
+
+
 
 
 <p align="center">BannerBash is a library provides <b>large 3D banner</b> text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
