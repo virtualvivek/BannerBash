@@ -66,26 +66,21 @@ Include **library folder** in your target project folder.
 // Choose any you like
 ./
  ├─ lib/
- │  ├─ pixel/
- │  │  └─ BannerBash.sh
- │  └─ retro/
- │     └─ BannerBash.sh
+ │  ├─ pixel/BannerBash.sh
+ │  └─ retro/BannerBash.sh
  └─ src/
+    │
     ├─ rust/
-    │  ├─ pixel/
-    │  │  └─ banner_bash.rs
-    │  └─ retro/
-    │     └─ banner_bash.rs
+    │  ├─ pixel/banner_bash.rs
+    │  └─ retro/banner_bash.rs
+    │
     ├─ javascript/
-    │  ├─ pixel/
-    │  │  └─ bannerBash.js
-    │  └─ retro/
-    │     └─ bannerBash.js
+    │  ├─ pixel/bannerBash.js
+    │  └─ retro/bannerBash.js
+    │
     └─ python/
-       ├─ pixel/
-       │  └─ banner_bash.py
-       └─ retro/
-          └─ banner_bash.py
+       ├─ pixel/banner_bash.py
+       └─ retro/banner_bash.py
 ​
 ```
 
