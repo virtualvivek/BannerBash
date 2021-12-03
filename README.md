@@ -132,19 +132,19 @@ Include **library folder** in your target project folder.
 </tr>	
 <tr>
   <td>Alphabets</td>
-  <td><img src="_markdown/app_repo_alphabets.png" width="400" /></td>
+  <td><img src="_markdown/app_repo_alphabets.png" width="350" /></td>
 </tr>
 <tr>
   <td>Numbers</td>
-  <td><img src="_markdown/app_repo_numbers.png" width="400" /></td>
+  <td><img src="_markdown/app_repo_numbers.png" width="350" /></td>
 </tr>
 <tr>
   <td>Maths Symbols</td>
-  <td><img src="_markdown/app_repo_maths_symbols.png" width="400" /></td>
+  <td><img src="_markdown/app_repo_maths_symbols.png" width="350" /></td>
 </tr>
 <tr>
   <td>Special Characters</td>
-  <td><img src="_markdown/app_repo_special_characters.png" width="400" /></td>
+  <td><img src="_markdown/app_repo_special_characters.png" width="350" /></td>
 </tr>
 </table>
 
