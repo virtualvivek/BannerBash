@@ -18,7 +18,7 @@ BannerBash() {
       char = ${bannerstring:$j:1}
       
       if [ $i -eq 0 ];then 
-        if [ "$char" = "0" ];then v_str="${v_str} █▀█";
+          if [ "$char" = "0" ];then v_str="${v_str} █▀█";
         elif [ "$char" = "1" ];then v_str="${v_str} ▄█";
         elif [ "$char" = "2" ];then v_str="${v_str} ▀█";
         elif [ "$char" = "3" ];then v_str="${v_str} █▀▀";
@@ -85,7 +85,7 @@ BannerBash() {
       
       
       if [ $i -eq 1 ];then 
-        if [ "$char" = "0" ];then v_str="${v_str} █▄█";
+          if [ "$char" = "0" ];then v_str="${v_str} █▄█";
         elif [ "$char" = "1" ];then v_str="${v_str} ░█";
         elif [ "$char" = "2" ];then v_str="${v_str} █▄";
         elif [ "$char" = "3" ];then v_str="${v_str} ██▄";

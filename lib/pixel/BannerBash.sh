@@ -16,7 +16,7 @@ BannerBash() {
       char = ${bannerstring:$j:1}
       
       if [ $i -eq 0 ];then 
-        if [ "$char" = "0" ];then _str="${_str} ░█████╗░";
+          if [ "$char" = "0" ];then _str="${_str} ░█████╗░";
         elif [ "$char" = "1" ];then _str="${_str} ░░███╗░░";
         elif [ "$char" = "2" ];then _str="${_str} ██████╗░";
         elif [ "$char" = "3" ];then _str="${_str} ██████╗░";
@@ -83,7 +83,7 @@ BannerBash() {
       
       
       if [ $i -eq 1 ];then 
-        if [ "$char" = "0" ];then _str="${_str} ██╔══██╗";
+          if [ "$char" = "0" ];then _str="${_str} ██╔══██╗";
         elif [ "$char" = "1" ];then _str="${_str} ░████║░░";
         elif [ "$char" = "2" ];then _str="${_str} ╚════██╗";
         elif [ "$char" = "3" ];then _str="${_str} ╚════██╗";
@@ -150,7 +150,7 @@ BannerBash() {
               
               
       if [ $i -eq 2 ];then 
-        if [ "$char" = "0" ];then _str="${_str} ██║░░██║";
+          if [ "$char" = "0" ];then _str="${_str} ██║░░██║";
         elif [ "$char" = "1" ];then _str="${_str} ██╔██║░░";
         elif [ "$char" = "2" ];then _str="${_str} ░░███╔═╝";
         elif [ "$char" = "3" ];then _str="${_str} ░█████╔╝";
@@ -217,7 +217,7 @@ BannerBash() {
 
 
       if [ $i -eq 3 ];then 
-        if [ "$char" = "0" ];then _str="${_str} ██║░░██║";
+          if [ "$char" = "0" ];then _str="${_str} ██║░░██║";
         elif [ "$char" = "1" ];then _str="${_str} ╚═╝██║░░";
         elif [ "$char" = "2" ];then _str="${_str} ██╔══╝░░";
         elif [ "$char" = "3" ];then _str="${_str} ░╚═══██╗";
@@ -284,7 +284,7 @@ BannerBash() {
 
 
       if [ $i -eq 4 ];then 
-        if [ "$char" = "0" ];then _str="${_str} ╚█████╔╝";
+          if [ "$char" = "0" ];then _str="${_str} ╚█████╔╝";
         elif [ "$char" = "1" ];then _str="${_str} ███████╗";
         elif [ "$char" = "2" ];then _str="${_str} ███████╗";
         elif [ "$char" = "3" ];then _str="${_str} ██████╔╝";
@@ -351,7 +351,7 @@ BannerBash() {
 
 
       if [ $i -eq 5 ];then 
-        if [ "$char" = "0" ];then _str="${_str} ░╚════╝░";
+          if [ "$char" = "0" ];then _str="${_str} ░╚════╝░";
         elif [ "$char" = "1" ];then _str="${_str} ╚══════╝";
         elif [ "$char" = "2" ];then _str="${_str} ╚══════╝";
         elif [ "$char" = "3" ];then _str="${_str} ╚═════╝░";
