@@ -26,15 +26,13 @@
 
 <p align="center">BannerBash is a library provides <b>large 3D banner</b> text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
 
-# Text Styles:‣
-## Pixel | [Retro](_main/retro)
-
-# Language:‣
-## Shell | [Rust](rust/pixel) | [Python](python/pixel) | [Javascript](javascript/pixel)
-
 # Demo:
+Under progress -
 
-## Text Style `Pixel` ‣
+# Text Styles
+
+## Pixel
+ 
 ```js
 ​
 ██╗░░██╗ ██╗   ██████╗░ ░█████╗░ ███╗░░██╗ ███╗░░██╗ ███████╗ ██████╗░
@@ -45,7 +43,9 @@
 ╚═╝░░╚═╝ ╚═╝   ╚═════╝░ ╚═╝░░╚═╝ ╚═╝░░╚══╝ ╚═╝░░╚══╝ ╚══════╝ ╚═╝░░╚═╝
 
 ```
-## Text Style `Retro` ‣
+
+## Retro
+ 
 ```js
 ​
  █░█ █  █▄▄ ▄▀█ █▄░█ █▄░█ █▀▀ █▀█
@@ -61,29 +61,31 @@ Download the latest version of BannerBash :<br/>
 </a>
 
 Include **library folder** in your target project folder.
-```css
+```js
 
+// Choose any you like
 ./
- ├─ _main/
+ ├─ lib/
  │  ├─ pixel/
  │  │  └─ BannerBash.sh
  │  └─ retro/
  │     └─ BannerBash.sh
- ├─ rust/
- │  ├─ pixel/
- │  │  └─ banner_bash.rs
- │  └─ retro/
- │     └─ banner_bash.rs
- ├─ javascript/
- │  ├─ pixel/
- │  │  └─ bannerBash.js
- │  └─ retro/
- │     └─ bannerBash.js
- └─ python/
-    ├─ pixel/
-    │  └─ banner_bash.py
-    └─ retro/
-       └─ banner_bash.py
+ └─ src/
+    ├─ rust/
+    │  ├─ pixel/
+    │  │  └─ banner_bash.rs
+    │  └─ retro/
+    │     └─ banner_bash.rs
+    ├─ javascript/
+    │  ├─ pixel/
+    │  │  └─ bannerBash.js
+    │  └─ retro/
+    │     └─ bannerBash.js
+    └─ python/
+       ├─ pixel/
+       │  └─ banner_bash.py
+       └─ retro/
+          └─ banner_bash.py
 ​
 ```
 
@@ -121,38 +123,30 @@ Include **library folder** in your target project folder.
 </table>
 
 
-## ‣Alphabets:
 
-```js
-$ BannerBash "abcdefghijklmnopqrstuvwxyz"
 
-```
-
-<img src="_markdown/app_repo_alphabets.png" width="500" />
-
-## ‣Numbers:
-
-```js
-$ BannerBash "0123456789"
-```
-
-<img src="_markdown/app_repo_numbers.png" width="500" />
-
-## ‣Maths Symbols:
-
-```js
-$ BannerBash "+-/*%=.<>^"
-```
-
-<img src="_markdown/app_repo_maths_symbols.png" width="500" />
-
-## ‣Special Characters:
-
-```js
-$ BannerBash "!?:$;@,&'[]#"
-```
-
-<img src="_markdown/app_repo_special_characters.png" width="500" />
+<table>
+<tr>
+  <td><b>Symbols</b></td>
+  <td><b>How it looks</b></td>
+</tr>	
+<tr>
+  <td>Alphabets</td>
+  <td><img src="_markdown/app_repo_alphabets.png" width="500" /></td>
+</tr>
+<tr>
+  <td>Numbers</td>
+  <td><img src="_markdown/app_repo_numbers.png" width="500" /></td>
+</tr>
+<tr>
+  <td>Maths Symbols</td>
+  <td><img src="_markdown/app_repo_maths_symbols.png" width="500" /></td>
+</tr>
+<tr>
+  <td>Special Characters</td>
+  <td><img src="_markdown/app_repo_special_characters.png" width="500" /></td>
+</tr>
+</table>
 
 
 # Find this library useful? :heart:
