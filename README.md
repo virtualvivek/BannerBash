@@ -94,13 +94,11 @@ Include **library folder** in your target project folder.
 <table>
 <tr>
   <td><b>Language</b></td>
-  <td><b>Extension</b></td>
   <td><b>Usage</b></td>
 </tr>
 	
 <tr>
   <td>Shell</td>
-  <td><pre>.sh</pre></td>
   <td>
 	
   ```js
@@ -111,7 +109,6 @@ Include **library folder** in your target project folder.
 
 <tr>
   <td>Rust</td>
-  <td><pre>.rs</pre></td>
   <td>
 	
   ```rust
