@@ -66,26 +66,21 @@ Include **library folder** in your target project folder.
 // Choose any you like
 ./
  ├─ lib/
- │  ├─ pixel/
- │  │  └─ BannerBash.sh
- │  └─ retro/
- │     └─ BannerBash.sh
+ │  ├─ pixel/BannerBash.sh
+ │  └─ retro/BannerBash.sh
  └─ src/
+    │
     ├─ rust/
-    │  ├─ pixel/
-    │  │  └─ banner_bash.rs
-    │  └─ retro/
-    │     └─ banner_bash.rs
+    │  ├─ pixel/banner_bash.rs
+    │  └─ retro/banner_bash.rs
+    │
     ├─ javascript/
-    │  ├─ pixel/
-    │  │  └─ bannerBash.js
-    │  └─ retro/
-    │     └─ bannerBash.js
+    │  ├─ pixel/bannerBash.js
+    │  └─ retro/bannerBash.js
+    │
     └─ python/
-       ├─ pixel/
-       │  └─ banner_bash.py
-       └─ retro/
-          └─ banner_bash.py
+       ├─ pixel/banner_bash.py
+       └─ retro/banner_bash.py
 ​
 ```
 
@@ -94,13 +89,11 @@ Include **library folder** in your target project folder.
 <table>
 <tr>
   <td><b>Language</b></td>
-  <td><b>Extension</b></td>
   <td><b>Usage</b></td>
 </tr>
 	
 <tr>
   <td>Shell</td>
-  <td><pre>.sh</pre></td>
   <td>
 	
   ```js
@@ -111,7 +104,6 @@ Include **library folder** in your target project folder.
 
 <tr>
   <td>Rust</td>
-  <td><pre>.rs</pre></td>
   <td>
 	
   ```rust
@@ -132,19 +124,19 @@ Include **library folder** in your target project folder.
 </tr>	
 <tr>
   <td>Alphabets</td>
-  <td><img src="_markdown/app_repo_alphabets.png" width="500" /></td>
+  <td><img src="_markdown/app_repo_alphabets.png" width="350" /></td>
 </tr>
 <tr>
   <td>Numbers</td>
-  <td><img src="_markdown/app_repo_numbers.png" width="500" /></td>
+  <td><img src="_markdown/app_repo_numbers.png" width="350" /></td>
 </tr>
 <tr>
   <td>Maths Symbols</td>
-  <td><img src="_markdown/app_repo_maths_symbols.png" width="500" /></td>
+  <td><img src="_markdown/app_repo_maths_symbols.png" width="350" /></td>
 </tr>
 <tr>
   <td>Special Characters</td>
-  <td><img src="_markdown/app_repo_special_characters.png" width="500" /></td>
+  <td><img src="_markdown/app_repo_special_characters.png" width="350" /></td>
 </tr>
 </table>
 
