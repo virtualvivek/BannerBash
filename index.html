@@ -4,7 +4,104 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./_markdown/demo/index.css" />
+    <style>
+      html,body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10vw;
+        background-color: #f7f7ff;
+      }
+      .navbar .title {
+        font-size: 32px;
+        font-weight: 700;
+      }
+      .container {
+        width: 80vw;
+        margin: 10px auto;
+      }
+      .sub-container {
+        overflow-x: scroll;
+        padding-bottom: 15px;
+      }
+      .sub-str-container {
+        display: inline-flex;
+        flex-flow: wrap;
+      }
+      .sub-str {
+        background: #eee;
+        padding: 8px;
+        border-radius: 8px;
+        letter-spacing: 2px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 5px 10px 5px 0;
+      }
+      .sub-str.heading {
+        background: #555;
+        color: #fff;
+      }
+      .input-container {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 12px 5px #88888822;
+      }
+      #input_div_pixel,
+      #input_div_retro {
+        width: max-content;
+        padding: 20px;
+        margin: 10px 0;
+        font-size: 11px;
+        border-radius: 8px;
+        border: 1px solid #d9d9d9;
+      }
+      input[type="text"] {
+        width: 50%;
+        height: 40px;
+        padding: 0 15px;
+        margin: 20px;
+        border-radius: 8px;
+        font-size: 18px;
+        border: 1px solid #d9d9d9;
+      }
+      input[type="text"]:focus,
+      input[type="text"]:active {
+        outline: none;
+        border: 1px solid #888888;
+      }
+      button {
+        height: 40px;
+        background: #1890ff;
+        border: none;
+        color: #fff;
+        padding: 0 10px;
+        margin-right: 20px;
+        border-radius: 8px;
+      }
+      button:hover {
+        background: #4ba6fa;
+      }
+      button:active {
+        background: #0c70cc;
+      }
+      .github-icon {
+        width: 45px;
+        height: 45px;
+        background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNTEycHgiIGlkPSJMYXllcl8xIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWwoJLnN0MHtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDt9Cl1dPjwvc3R5bGU+PGc+PHBhdGggY2xhc3M9InN0MCIgZD0iTTI1NiwzMkMxMzIuMywzMiwzMiwxMzQuOCwzMiwyNjEuN2MwLDEwMS41LDY0LjIsMTg3LjUsMTUzLjIsMjE3LjljMTEuMiwyLjEsMTUuMy01LDE1LjMtMTEuMSAgIGMwLTUuNS0wLjItMTkuOS0wLjMtMzkuMWMtNjIuMywxMy45LTc1LjUtMzAuOC03NS41LTMwLjhjLTEwLjItMjYuNS0yNC45LTMzLjYtMjQuOS0zMy42Yy0yMC4zLTE0LjMsMS41LTE0LDEuNS0xNCAgIGMyMi41LDEuNiwzNC4zLDIzLjcsMzQuMywyMy43YzIwLDM1LjEsNTIuNCwyNSw2NS4yLDE5LjFjMi0xNC44LDcuOC0yNSwxNC4yLTMwLjdjLTQ5LjctNS44LTEwMi0yNS41LTEwMi0xMTMuNSAgIGMwLTI1LjEsOC43LTQ1LjYsMjMtNjEuNmMtMi4zLTUuOC0xMC0yOS4yLDIuMi02MC44YzAsMCwxOC44LTYuMiw2MS42LDIzLjVjMTcuOS01LjEsMzctNy42LDU2LjEtNy43YzE5LDAuMSwzOC4yLDIuNiw1Ni4xLDcuNyAgIGM0Mi44LTI5LjcsNjEuNS0yMy41LDYxLjUtMjMuNWMxMi4yLDMxLjYsNC41LDU1LDIuMiw2MC44YzE0LjMsMTYuMSwyMywzNi42LDIzLDYxLjZjMCw4OC4yLTUyLjQsMTA3LjYtMTAyLjMsMTEzLjMgICBjOCw3LjEsMTUuMiwyMS4xLDE1LjIsNDIuNWMwLDMwLjctMC4zLDU1LjUtMC4zLDYzYzAsNi4xLDQsMTMuMywxNS40LDExQzQxNS45LDQ0OS4xLDQ4MCwzNjMuMSw0ODAsMjYxLjcgICBDNDgwLDEzNC44LDM3OS43LDMyLDI1NiwzMnoiLz48L2c+PC9zdmc+");
+        background-size: contain;
+      }
+    </style>
     <script src="./src/javascript/retro/bannerBash.js"></script>
     <script src="./src/javascript/pixel/bannerBash.js"></script>
   </head>
@@ -12,7 +109,7 @@
     <div class="navbar">
       <span class="title">BannerBash</span>
       <a href="https://github.com/virtualvivek/BannerBash" target="_blank">
-        <img src="_markdown/demo/assets/github_icon.svg" width="45" />
+        <div class="github-icon"></div>
       </a>
     </div>
     <div class="container">
