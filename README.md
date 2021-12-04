@@ -24,10 +24,11 @@
 
 
 
-<p align="center">BannerBash is a library provides <b>large 3D banner</b> text to your shell script, comes with <b>alphabets</b>, <b>numbers</b>, <b>math symbols</b>, <b>special characters.</b></p>
+<p align="center">BannerBash is a library provides <b>large 3D banner text</b> to your shell script, comes with <br/><b><code>alphabets</code></b>, <b><code>numbers</code></b>, <b><code>math symbols</code></b> & <b><code>special characters.</code></b></p>
 
-# Demo:
-Under progress -
+# Demo 🔆
+
+https://virtualvivek.github.io/BannerBash/
 
 # Text Styles
 
@@ -70,13 +71,13 @@ Include **library folder** in your target project folder.
  │  └─ retro/BannerBash.sh
  └─ src/
     │
-    ├─ rust/
-    │  ├─ pixel/banner_bash.rs
-    │  └─ retro/banner_bash.rs
-    │
     ├─ javascript/
-    │  ├─ pixel/bannerBash.js
-    │  └─ retro/bannerBash.js
+    │  ├─ pixel/bannerBash.rs
+    │  └─ retro/bannerBash.rs
+    │
+    ├─ rust/
+    │  ├─ pixel/banner_bash.js
+    │  └─ retro/banner_bash.js
     │
     └─ python/
        ├─ pixel/banner_bash.py
@@ -103,11 +104,30 @@ Include **library folder** in your target project folder.
 </tr>
 
 <tr>
+  <td>JavaScript</td>
+  <td>
+	
+  ```html
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="./src/javascript/pixel/bannerBash.js"></script>
+    <script src="./src/javascript/retro/bannerBash.js"></script>
+  </head>
+  ```
+	  
+  ```js
+  let val_px = Pixel.bannerBash("Hi pixel text");
+  let val_rt = Retro.bannerBash("Hi retro text");
+  ```
+  </td>
+</tr>
+
+<tr>
   <td>Rust</td>
   <td>
 	
   ```rust
-  let str_to_store = banner_bash("Hi".to_string())
+  let str = banner_bash("Hi".to_string())
   ```
   </td>
 </tr>
