@@ -127,7 +127,7 @@ Include **library folder** in your target project folder.
   <td>
 	
   ```rust
-  let str = banner_bash("Hi".to_string())
+  let str = banner_bash("Hi".to_string());
   ```
   </td>
 </tr>
