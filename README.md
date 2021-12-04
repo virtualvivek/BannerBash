@@ -15,7 +15,7 @@
 </a>
 
 <a href="https://github.com/virtualvivek/BannerBash">
-    <img src="https://img.shields.io/badge/Release-v1.4-darklime.svg?style=flat-square"
+    <img src="https://img.shields.io/badge/release-v2.0-darklime.svg?style=flat-square"
       alt="Release" />
 </a>
   
