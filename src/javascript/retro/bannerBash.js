@@ -67,7 +67,7 @@ var Retro = {
         else if ( char == "!" ){ _str+=" █"; }             
         else if ( char == "?" ){ _str+=" ▀█"; }
         else if ( char == ":" ){ _str+=" ▀"; }
-        else if ( char == ";" ){ _str+="  ▀"; }
+        else if ( char == ";" ){ _str+=" ░▀"; }
         else if ( char == "$" ){ _str+="  █▄"; }
       //else if ( char == "@" ){ _str+="  "; }
         else if ( char == "," ){ _str+=" ░"; }
