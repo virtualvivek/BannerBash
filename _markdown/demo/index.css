@@ -4,12 +4,15 @@ html,body {
   font-family: sans-serif;
 }
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10vw;
   background-color: #f7f7ff;
-  padding: 15px 20vw;
 }
 
 .navbar .title {
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -17,10 +20,46 @@ html,body {
   width: 80vw;
   margin: 10px auto;
 }
+.sub-container {
+  overflow-x: scroll;
+  padding-bottom: 15px;
+}
+.sub-str-container {
+  display: inline-flex;
+  flex-flow: wrap;
+}
+.sub-str {
+  background: #eee;
+  padding: 8px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 10px 5px 0;
+}
+.sub-str.heading {
+  background: #555;
+  color: #fff;
+}
 
-#input_div {
-  width: 80%;
+.input-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 12px 5px #88888822;
+}
+
+#input_div_pixel,
+#input_div_retro {
+  width: max-content;
   padding: 20px;
+  margin: 10px 0;
+  font-size: 11px;
   border-radius: 8px;
   border: 1px solid #d9d9d9;
 }
@@ -29,6 +68,7 @@ input[type="text"] {
   width: 50%;
   height: 40px;
   padding: 0 15px;
+  margin: 20px;
   border-radius: 8px;
   font-size: 18px;
   border: 1px solid #d9d9d9;
@@ -40,11 +80,12 @@ input[type="text"]:active {
 }
 
 button {
-  min-height: 40px;
+  height: 40px;
   background: #1890ff;
   border: none;
   color: #fff;
   padding: 0 10px;
+  margin-right: 20px;
   border-radius: 8px;
 }
 button:hover {

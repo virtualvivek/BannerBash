@@ -1,4 +1,5 @@
-function bannerBash ( bannerstring ) {
+var Pixel = {
+  bannerBash: function bannerBash ( bannerstring ) {
 
   let length = bannerstring.length;
   let i = 0;
@@ -7,7 +8,7 @@ function bannerBash ( bannerstring ) {
   let spacebar_ = "&nbsp;&nbsp;&nbsp;&nbsp;";
 
   while ( i < 6 ) {
-    let j=0;
+    let j = 0;
 
     while ( j < length ) {
     
@@ -78,9 +79,8 @@ function bannerBash ( bannerstring ) {
 
         else if ( char == " " ){ _str+= spacebar_; }
       }
+      
       if ( i == 1 && j == 0 ){ _str+="<br/>"; }
-    
-    
       if ( i == 1 ) {
              if ( char == "0" ){ _str+=" ██╔══██╗"; }
         else if ( char == "1" ){ _str+=" ░████║░░"; }
@@ -145,9 +145,8 @@ function bannerBash ( bannerstring ) {
         else if ( char == "#" ){ _str+=" ██████████╗"; }   
         else if ( char == " " ){ _str+= spacebar_; }
       }
-      if ( i == 2 && j == 0 ){ _str+="<br/>";}
-            
-            
+
+      if ( i == 2 && j == 0 ){ _str+="<br/>"; }   
       if ( i == 2 ) {
              if ( char == "0" ){ _str+=" ██║░░██║"; }
         else if ( char == "1" ){ _str+=" ██╔██║░░"; }
@@ -213,9 +212,8 @@ function bannerBash ( bannerstring ) {
         
         else if ( char == " " ){ _str+= spacebar_; }
       }
+
       if ( i == 3 && j == 0 ){ _str+="<br/>"; }
-
-
       if ( i == 3 ) {
              if ( char == "0" ){ _str+=" ██║░░██║"; }
         else if ( char == "1" ){ _str+=" ╚═╝██║░░"; }
@@ -281,9 +279,8 @@ function bannerBash ( bannerstring ) {
         
         else if ( char == " " ){ _str+= spacebar_; }
       }
-      if ( i == 4 && j == 0 ){ _str+="<br/>";}
 
-
+      if ( i == 4 && j == 0 ){ _str+="<br/>"; }
       if ( i == 4 ) {
              if ( char == "0" ){ _str+=" ╚█████╔╝"; }
         else if ( char == "1" ){ _str+=" ███████╗"; }
@@ -349,9 +346,8 @@ function bannerBash ( bannerstring ) {
         
         else if ( char == " " ){ _str+= spacebar_; }
       }
-      if ( i == 5 && j == 0 ){ _str+="<br/>";}
 
-
+      if ( i == 5 && j == 0 ){ _str+="<br/>"; }
       if ( i == 5 ) {
              if ( char == "0" ){ _str+=" ░╚════╝░"; }
         else if ( char == "1" ){ _str+=" ╚══════╝"; }
@@ -422,6 +418,7 @@ function bannerBash ( bannerstring ) {
     i+=1;
   }
   return _str;
+  }
 }
 
 {/* document.write( bannerBash("+-<>/=") ); */}

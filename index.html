@@ -3,33 +3,73 @@
   <title>Web Page Design</title>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./_markdown/demo/index.css" />
+    <script src="./src/javascript/retro/bannerBash.js"></script>
     <script src="./src/javascript/pixel/bannerBash.js"></script>
   </head>
   <body>
     <div class="navbar">
       <span class="title">BannerBash</span>
-      <span>Github</span>
+      <a href="https://github.com/virtualvivek/BannerBash" target="_blank">
+        <img src="_markdown/demo/assets/github_icon.svg" width="45" />
+      </a>
     </div>
     <div class="container">
-      <div id="input_div"><h1>Banner</h1></div>
+      <div class="sub-container">
+        <div id="input_div_pixel"><h1>Your Banner Text</h1></div>
+      </div>
       <br/>
-      <input type="text" placeholder="write your text here" id="input_text"/>
-      <button onclick="onTextChange_();">Create Banner</button>
+      <div class="sub-str-container">
+        <span class="sub-str heading"><b>Valid Strings :</b></span>
+        <span class="sub-str">abcdefghijklmnopqrstuvwxyz</span>
+        <span class="sub-str">0123456789</span>
+        <span class="sub-str">+-/*%=.&lt;&gt;^</span>
+        <span class="sub-str">!?:$;@,&'[]#</span>
+      </div>
       <br/>
-
-      <span><b>Available strings</b></span><br/><br/>
-      <span>abcdefghijklmnopqrstuvwxyz</span><br/>
-      <span>0123456789</span><br/>
-      <span>+-/*%=.<>^</span><br/>
-      <span>!?:$;@,&'[]#</span>
-
+      <hr/>
+      
+      <div class="sub-container">
+        <div id="input_div_retro"><h1>Your Banner Text</h1></div>
+      </div>
+      <br/>
+      <div class="sub-str-container">
+        <span class="sub-str heading"><b>Valid Strings :</b></span>
+        <span class="sub-str">abcdefghijklmnopqrstuvwxyz</span>
+        <span class="sub-str">0123456789</span>
+        <span class="sub-str">+-/*%=.</span>
+        <span class="sub-str">!?:$;,'[]#</span>
+      </div>
+      
+      <br/>
+      <hr/>
+      <div class="input-container">
+        <input type="text" placeholder="write your text here" id="input_text"/>
+        <button onclick="onTextChange_();"><b>Create Banner</b></button>
+      </div>
+      
+      <br/><br/><br/><br/>
+      <br/><br/><br/>
+      <br/><br/>
+      <br/>
+          
     </div>
   <div>
     <script>
+      document.getElementById("input_div_pixel").innerHTML = Pixel.bannerBash("Banner");
+      document.getElementById("input_div_retro").innerHTML = Retro.bannerBash("Banner Text");
+    </script>
+    <script>
       function onTextChange_() {
         let val = document.getElementById("input_text").value;
-        document.getElementById("input_div").innerHTML = bannerBash(val);
+        if(val.empty || val.trim() === "") {
+          //do nothing
+        }
+        else {
+          document.getElementById("input_div_pixel").innerHTML = Pixel.bannerBash(val);
+          document.getElementById("input_div_retro").innerHTML = Retro.bannerBash(val);
+        }
       }
     </script>
   </div>
