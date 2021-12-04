@@ -131,6 +131,17 @@ Include **library folder** in your target project folder.
   ```
   </td>
 </tr>
+	
+<tr>
+  <td>Python</td>
+  <td>
+	
+  ```py
+  str = banner_bash("Hi World")
+  print(str)
+  ```
+  </td>
+</tr>
 
 </table>
 
