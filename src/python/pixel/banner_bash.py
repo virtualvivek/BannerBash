@@ -1,7 +1,7 @@
 # encoding=utf8
 def banner_bash( bannerstring ):
 
-    length= len(bannerstring)
+    length = len(bannerstring)
     i = 0
     _str = ""
     
